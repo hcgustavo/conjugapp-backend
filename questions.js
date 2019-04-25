@@ -45,12 +45,12 @@ const questions = [
     },
 
     {
-        // Nous avons continué bien que nous nous sommes trompés de chemin.
+        // Nous avons continué bien que nous nous soyons trompés de chemin.
         id: 6,
         verb: "se tromper",
         tense: "subjonctif/passé",
         parts: ["Nous avons", "continué bien que nous", "de chemin."],
-        response: "nous avons continué bien que nous nous sommes trompés de chemin"
+        response: "nous avons continué bien que nous nous soyons trompés de chemin"
     }
 ];
 
