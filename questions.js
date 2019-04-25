@@ -20,7 +20,7 @@ const questions = [
     {
         // Nous avons travaillé pendant toute la nuit.
         id: 3,
-        verb: "avoir",
+        verb: "travailler",
         tense: "indicatif/passé composé",
         parts: ["Nous", "pendant toute la nuit."],
         response: "nous avons travaillé pendant toute la nuit"
