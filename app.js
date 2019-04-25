@@ -5,11 +5,7 @@ const questions = require('./questions');
 
 let port = process.env.PORT || 8080;
 
-app.get('/', (req, res, next) => {
-    res.send(`
-    <p>ConjugApp API</p>
-    `);
-});
+app.use(express.static(__dirname + "/public"));
 
 app.get('/api/questions', (req, res, next) => {
     res.status(200).json(questions);
