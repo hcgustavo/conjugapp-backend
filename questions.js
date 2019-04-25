@@ -1,14 +1,16 @@
 const questions = [
     {
         // Je vais au cinéma.
+        id: 1,
         verb: "aller",
         tense: "indicatif/présent",
-        parts: ["Je", "au cinéma"],
+        parts: ["Je", "au cinéma."],
         response: "je vais au cinéma",
     },
 
     {
         // Il faut que tu ailles au supermarché.
+        id: 2,
         verb: "aller",
         tense: "subjonctif/présent",
         parts: ["Il faut que", "tu", "au supermarché."],
@@ -17,6 +19,7 @@ const questions = [
 
     {
         // Nous avons travaillé pendant toute la nuit.
+        id: 3,
         verb: "avoir",
         tense: "indicatif/passé composé",
         parts: ["Nous", "pendant toute la nuit."],
@@ -25,6 +28,7 @@ const questions = [
 
     {
         // Elles sont allées à la plage hier.
+        id: 4,
         verb: "aller",
         tense: "indicatif/passé composé",
         parts: ["Elles", "à la plage hier."],
@@ -33,6 +37,7 @@ const questions = [
 
     {
         // Vous vous sentez bien?
+        id: 5,
         verb: "se sentir",
         tense: "indicatif/présent",
         parts: ["Vous", "bien?"],
@@ -41,6 +46,7 @@ const questions = [
 
     {
         // Nous avons continué bien que nous nous sommes trompés de chemin.
+        id: 6,
         verb: "se tromper",
         tense: "subjonctif/passé",
         parts: ["Nous avons", "continué bien que nous", "de chemin."],

@@ -10,7 +10,7 @@ app.get('/', (req, res, next) => {
 });
 
 app.get('/api/questions', (req, res, next) => {
-    res.json(questions);
+    res.status(200).json(questions);
 });
 
 app.listen(8080, () => {
